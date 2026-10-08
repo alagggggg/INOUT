@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="WidgetBaseButton"><item name="android:layout_width">0dp</item><item name="android:layout_height">0dp</item><item name="android:layout_columnWeight">1</item><item name="android:layout_rowWeight">1</item><item name="android:layout_margin">2dp</item><item name="android:minWidth">0dp</item><item name="android:minHeight">0dp</item><item name="android:padding">1dp</item><item name="android:gravity">center</item><item name="android:textAllCaps">false</item><item name="android:textSize">9sp</item><item name="android:textStyle">bold</item><item name="android:maxLines">1</item><item name="android:ellipsize">end</item></style>
+<style name="WidgetIncomeButton" parent="WidgetBaseButton"><item name="android:background">@drawable/widget_income_button</item><item name="android:textColor">@color/widget_green</item></style>
+<style name="WidgetExpenseButton" parent="WidgetBaseButton"><item name="android:background">@drawable/widget_expense_button</item><item name="android:textColor">@color/widget_red</item></style>
+</resources>
